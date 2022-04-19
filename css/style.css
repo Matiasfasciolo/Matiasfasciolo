@@ -1,0 +1,62 @@
+body{
+    padding: 50px 60px 20px 60px;
+    margin: 0%;
+    justify-content: center;
+    border: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: wheat;
+    background-color: black;
+    line-height: 4;
+    
+  }
+.logo  {
+    size: 50px;
+}
+
+
+ul {
+    line-height: 4;
+}
+.Bienvenido {
+    background-color: #009900;
+}
+
+
+
+  #main{
+    height: 200px;
+    width: 200px;
+    background: teal;
+    display: inline;
+ 
+}
+#main1{
+    height: 200px;
+    width: 200px;
+    background: cyan;
+    display: inline;
+ 
+}
+#main2{
+    height: 200px;
+    width: 200px;
+    background: green;
+    display: inline;
+}
+.gfg {
+    margin-left:20px;
+    font-size:42px;
+    font-weight:bold;
+    color:#009900;
+}
+.geeks {
+    font-size:25px;
+    margin-left:30px;
+}
+.main {
+    margin:50px;
+}
+
+
+
