@@ -1,4 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+  
 body{
+    text-align: center;
     padding: 50px 60px 20px 60px;
     margin: 0%;
     justify-content: center;
@@ -8,23 +14,32 @@ body{
     color: wheat;
     background-color: black;
     line-height: 4;
-    
   }
-.logo  {
-    size: 50px;
-}
 
 
-ul {
-    line-height: 4;
+.menu{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px ;
+    text-align: center;
 }
+
 .Bienvenido {
-    background-color: #009900;
+    background-color: wheat;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 10%;
 }
 
-
-
-  #main{
+#main{
     height: 200px;
     width: 200px;
     background: teal;
@@ -34,21 +49,21 @@ ul {
 #main1{
     height: 200px;
     width: 200px;
-    background: cyan;
+    background: rgb(126, 160, 160);
     display: inline;
  
 }
 #main2{
     height: 200px;
     width: 200px;
-    background: green;
+    background: rgb(82, 99, 82);
     display: inline;
 }
 .gfg {
     margin-left:20px;
     font-size:42px;
     font-weight:bold;
-    color:#009900;
+    color:#253f25;
 }
 .geeks {
     font-size:25px;
@@ -58,5 +73,13 @@ ul {
     margin:50px;
 }
 
+@media (max-width: 700px) {
+    .cuerpo {
+        width: 100%;
+        margin: 0 auto;
+    }
 
-
+@media (max-width: 480px) {
+        img {
+          max-width:100%;
+    }
