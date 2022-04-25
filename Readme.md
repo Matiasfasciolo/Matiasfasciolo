@@ -1,4 +1,4 @@
-<img src="images/Logo.jpg" width="300" height="300" >
+<img src="images/Logo.jpg" width="200" height="200" >
 
 # Proyecto desarrollo web CoderHouse
 
